@@ -1,0 +1,10 @@
+{
+    "modsets": "random_multiple",
+    "desired_climate": ["tropical"],
+    "desired_era": "modern",
+    "desired_key": "vanilla",
+    "key_exclusive": 1,
+    "allow_double_occ": 0,
+    "choices": 5,
+    "debug_level": 2
+}
