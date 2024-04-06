@@ -40,13 +40,10 @@ Has to be an array. If "none" is in the array, it will include every faction tha
 If "ws" is in the array, it will include every faction that requires ws (Aegis and WS factions for example).
 
 ## "allow_double_occ"
-Has to be 0 or 1. If set to 1, the invader pool chooses from the occupier pool.
-
-## "choices"
-The amount of choices you want. Has to be an int. Please don't set this to 0 or lower, I didn't bother adding an exception for it.
+Has to be 0 or 1. If set to 1, the invader and occupier pools are merged.
 
 ## "choices"
 The amount of choices you want. Has to be an int. Please don't set this to 0 or lower, I didn't bother adding an exception for it.
 
 ## "debug_level"
-The amount of debug messages you'll get. You usually don't need to change this, but anything higher than 2 will give you a huge amount of information
+The amount of debug messages you'll get. You usually don't need to change this, but anything higher than 2 will give you a huge amount of information.
