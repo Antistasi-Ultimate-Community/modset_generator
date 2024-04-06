@@ -29,7 +29,8 @@ Local civilians are RHS Eastern Europeans.
 ## "modsets" 
 Can be an array of modsets (in modsets.json). For example, ["rhs", "3cbf", "3cbbaf"]
 
-If set to "random" it will choose 1 modset out of all the modsets.
+~~If set to "random" it will choose 1 modset out of all the modsets.~~
+This has been deprecated in favour of below.
 
 If set to "random_multiple" it will choose random factions from all available modsets.
 
