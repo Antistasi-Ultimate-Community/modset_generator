@@ -1,5 +1,5 @@
 {
-    "modsets": ["rhs", "vanilla", "3cbbaf", "3cbf", "tfc", "racs", "aegis", "amf", "braf", "bwa3"],
+    "modsets": ["rhs", "vanilla", "3cbbaf", "3cbf", "tfc", "racs", "aegis", "amf", "braf", "bwa3rhs", "bwa3cup", "csa38"],
     "3cbbaf": 
     {
         "title": "3CBBAF",
@@ -150,9 +150,34 @@
             "None"
         ]
     },
-    "bwa3": 
+    "bwa3rhs": 
     {
-        "title": "BWA",
+        "title": "BWA RHS",
+        "factionsOcc": 
+        [
+            "BWA3_BW_Arid",
+            "BWA3_BW_Temperate"
+        ],
+        "factionsInv": 
+        [
+            "None"
+        ],
+        "factionsReb": 
+        [
+            "None"
+        ],
+        "factionsRiv": 
+        [
+            "None"
+        ],
+        "factionsCiv": 
+        [
+            "None"
+        ]
+    },
+    "bwa3cup": 
+    {
+        "title": "BWA CUP",
         "factionsOcc": 
         [
             "BWA3_BW_Arid",

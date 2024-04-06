@@ -15,25 +15,25 @@
                 {
                     "title": "3CB British (Arctic)",
                     "climates": ["arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CB_AI_BAF_Arid": 
                 {
                     "title": "3CB British (Arid)",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CB_AI_BAF_Temperate": 
                 {
                     "title": "3CB British (Temperate)",
                     "climates": ["temperate"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CB_AI_BAF_Tropical": 
                 {
                     "title": "3CB British (Tropical)",
                     "climates": ["tropical"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             }
         },
@@ -50,55 +50,55 @@
                 {
                     "title": "3CB LDF",
                     "climates": ["temperate"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_CDF": 
                 {
                     "title": "3CB CDF",
                     "climates": ["temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_HIDF": 
                 {
                     "title": "3CB HIDF",
                     "climates": ["tropical"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_AAF": 
                 {
                     "title": "3CB AAF",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_TKA": 
                 {
                     "title": "3CB TKA",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_US_Army_Arid": 
                 {
                     "title": "3CB US Army (Arid)",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_US_Army_Temperate": 
                 {
                     "title": "3CB US Army (Temperate)",
                     "climates": ["temperate"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_USMC_Arid": 
                 {
                     "title": "3CB USMC (Arid)",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_USMC_Temperate": 
                 {
                     "title": "3CB USMC (Temperate)",
                     "climates": ["temperate"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsInv":
@@ -108,13 +108,13 @@
                 {
                     "title": "3CB ARD",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_AFRF":
                 {
                     "title": "3CB AFRF",
                     "climates": ["arid","temperate","tropical","arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsReb":
@@ -124,25 +124,25 @@
                 {
                     "title": "3CB FIA",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_NAPA":
                 {
                     "title": "3CB NAPA",
                     "climates": ["temperate", "tropical"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_CCM":
                 {
                     "title": "3CB CCM",
                     "climates": ["temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_TKM":
                 {
                     "title": "3CB TKA",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsRiv":
@@ -152,13 +152,13 @@
                 {
                     "title": "3CB CHDKZ",
                     "climates": ["temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_TI":
                 {
                     "title": "3CBF TI",
                     "climates": ["tropical"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsCiv": 
@@ -168,19 +168,19 @@
                 {
                     "title": "3CB Eastern Europeans",
                     "climates": ["temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_A":
                 {
                     "title": "3CB Arid",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "3CBF_TKC":
                 {
                     "title": "3CB Takistan",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             }
         },
@@ -326,13 +326,13 @@
                 {
                     "title": "AMF French Army",
                     "climates": ["temperate", "arctic", "tropical"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "AMF_Army_Tan": 
                 {
                     "title": "AMF French Army (Arid)",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             }
         },
@@ -349,7 +349,7 @@
                 {
                     "title": "BRAF Army",
                     "climates": ["tropical"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsReb": 
@@ -359,14 +359,14 @@
                 {
                     "title": "BRAF MNGC",
                     "climates": ["tropical"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             }
         },
-        "bwa3":
+        "bwa3rhs":
         {
-            "title": "BWA",
-            "collection": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034666054",
+            "title": "BWA RHS",
+            "collection": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019561262",
             "type": "rhs",
             "era": "modern",
             "factionsOcc": 
@@ -374,15 +374,156 @@
                 "side": "Occ",
                 "BWA3_BW_Arid": 
                 {
-                    "title": "BWA Germany (Arid)",
+                    "title": "BWA + RHS Germany (Arid)",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "BWA3_BW_Temperate": 
                 {
-                    "title": "BWA Germany (Temperate)",
+                    "title": "BWA + RHS Germany (Temperate)",
                     "climates": ["temperate"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
+                }
+            }
+        },
+        "bwa3cup":
+        {
+            "title": "BWA CUP",
+            "collection": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019562271",
+            "type": "vanilla",
+            "era": "modern",
+            "factionsOcc": 
+            {
+                "side": "Occ",
+                "BWA3_BW_Arid": 
+                {
+                    "title": "BWA + CUP Germany (Arid)",
+                    "climates": ["arid"],
+                    "dlc": ["none"]
+                },
+                "BWA3_BW_Temperate": 
+                {
+                    "title": "BWA + CUP Germany (Temperate)",
+                    "climates": ["temperate"],
+                    "dlc": ["none"]
+                }
+            }
+        },
+        "csa38":
+        {
+            "title": "CSA38",
+            "collection": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034665416",
+            "type": "vanilla",
+            "era": "lowtech",
+            "factionsOcc": 
+            {
+                "side": "Occ",
+                "CSA_WEH_Temperate": 
+                {
+                    "title": "CSA Wehrmacht (Temperate)",
+                    "climates": ["temperate"],
+                    "dlc": ["none"]
+                },
+                "CSA_WEH_Arid": 
+                {
+                    "title": "CSA Wehrmacht (Arid)",
+                    "climates": ["arid"],
+                    "dlc": ["none"]
+                },
+                "CSA_WEH_Arctic": 
+                {
+                    "title": "CSA Wehrmacht (Arctic)",
+                    "climates": ["arctic"],
+                    "dlc": ["none"]
+                }
+            },
+            "factionsInv":
+            {
+                "side": "Inv",
+                "CSA_UK_Arctic":
+                {
+                    "title": "CSA UK (Arctic)",
+                    "climates": ["arctic"],
+                    "dlc": ["none"]
+                },
+                "CSA_UK_Arid":
+                {
+                    "title": "CSA UK (Arid)",
+                    "climates": ["arid"],
+                    "dlc": ["none"]
+                },
+                "CSA_UK_Temperate":
+                {
+                    "title": "CSA UK (Temperate)",
+                    "climates": ["temperate"],
+                    "dlc": ["none"]
+                }
+            },
+            "factionsReb":
+            {
+                "side": "Reb",
+                "CSA_Reb":
+                {
+                    "title": "CSA Czech",
+                    "climates": ["temperate", "arctic"],
+                    "dlc": ["none"]
+                }
+            }
+        },
+        "cup":
+        {
+            "title": "CUP",
+            "collection": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019562847",
+            "type": "vanilla",
+            "era": "modern",
+            "factionsOcc": 
+            {
+                "side": "Occ",
+                "faction": 
+                {
+                    "title": "title",
+                    "climates": ["climate"],
+                    "dlc": ["none"]
+                }
+            },
+            "factionsInv":
+            {
+                "side": "Inv",
+                "faction":
+                {
+                    "title": "title",
+                    "climates": ["climate"],
+                    "dlc": ["none"]
+                }
+            },
+            "factionsReb":
+            {
+                "side": "Reb",
+                "faction":
+                {
+                    "title": "title",
+                    "climates": ["climate"],
+                    "dlc": ["none"]
+                }
+            },
+            "factionsRiv":
+            {
+                "side": "Riv",
+                "faction":
+                {
+                    "title": "title",
+                    "climates": ["climate"],
+                    "dlc": ["none"]
+                }
+            },
+            "factionsCiv": 
+            {
+                "side": "Civ",
+                "faction":
+                {
+                    "title": "title",
+                    "climates": ["climate"],
+                    "dlc": ["none"]
                 }
             }
         },
@@ -399,31 +540,31 @@
                 {
                     "title": "NATO (Arid)",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "Vanilla_NATO_Temperate": 
                 {
                     "title": "NATO (Temperate)",
                     "climates": ["temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "Vanilla_NATO_Tropical": 
                 {
                     "title": "NATO (Tropical)",
                     "climates": ["tropical"],
-                    "dlc": ["Apex"]
+                    "dlc": ["apex"]
                 },
                 "Vanilla_LDF": 
                 {
                     "title": "Livonian Defense Force",
                     "climates": ["temperate"],
-                    "dlc": ["Contact"]
+                    "dlc": ["contact"]
                 },
                 "Vanilla_AAF": 
                 {
                     "title": "Altis Armed Forces",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsInv":
@@ -433,13 +574,13 @@
                 {
                     "title": "CSAT (Arid)",
                     "climates": ["arid", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "Vanilla_CSAT_Temperate":
                 {
                     "title": "CSAT (Temperate)",
                     "climates": ["temperate", "tropical"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsReb":
@@ -449,19 +590,19 @@
                 {
                     "title": "FIA",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "Vanilla_SDK":
                 {
                     "title": "Syndikat",
                     "climates": ["tropical"],
-                    "dlc": ["Apex"]
+                    "dlc": ["apex"]
                 },
                 "Vanilla_LL":
                 {
                     "title": "Livonian Looters",
                     "climates": ["temperate", "arctic"],
-                    "dlc": ["Contact"]
+                    "dlc": ["contact"]
                 }
             },
             "factionsRiv":
@@ -471,13 +612,13 @@
                 {
                     "title": "Exegermenos",
                     "climates": ["arid", "temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "Vanilla_LE":
                 {
                     "title": "L'Ensemble",
                     "climates": ["tropical"],
-                    "dlc": ["Apex"]
+                    "dlc": ["apex"]
                 }
             },
             "factionsCiv": 
@@ -487,7 +628,7 @@
                 {
                     "title": "The People Of Altis",
                     "climates": ["arid", "tropical", "temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             }
         },
@@ -504,31 +645,31 @@
                 {
                     "title": "RHS USMC (Arid)",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "RHS_USMC_Temperate": 
                 {
                     "title": "RHS USMC (Temperate)",
                     "climates": ["temperate", "tropical", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "RHS_US_Army_Arid": 
                 {
                     "title": "RHS US Army (Arid)",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "RHS_US_Army_Temperate": 
                 {
                     "title": "RHS US Army (Temperate)",
                     "climates": ["temperate", "tropical", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "RHS_CDF": 
                 {
                     "title": "RHS CDF",
                     "climates": ["temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsInv":
@@ -538,13 +679,13 @@
                 {
                     "title": "RHS AFRF",
                     "climates": ["arid", "tropical", "temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "RHS_SAF":
                 {
                     "title": "RHS SAF",
                     "climates": ["arid", "tropical", "temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsReb":
@@ -554,7 +695,7 @@
                 {
                     "title": "RHS NAPA",
                     "climates": ["arid", "tropical", "temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsRiv":
@@ -564,7 +705,7 @@
                 {
                     "title": "RHS CHDKZ",
                     "climates": ["arid", "tropical", "temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsCiv": 
@@ -574,7 +715,7 @@
                 {
                     "title": "RHS Eastern Europeans",
                     "climates": ["arid", "tropical", "temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             }
         },
@@ -591,13 +732,13 @@
                 {
                     "title": "TFC Canadian Army (Temperate)",
                     "climates": ["temperate", "arctic"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 },
                 "TFC_Army_Arid": 
                 {
                     "title": "TFC Canadian Army (Arid)",
                     "climates": ["arid"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             }
         },
@@ -614,7 +755,7 @@
                 {
                     "title": "RACS Army",
                     "climates": ["arid", "temperate"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsInv": 
@@ -624,7 +765,7 @@
                 {
                     "title": "RACS SLA",
                     "climates": ["arid", "temperate"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             },
             "factionsRiv": 
@@ -634,7 +775,7 @@
                 {
                     "title": "RACS QB",
                     "climates": ["arid", "temperate"],
-                    "dlc": ["None"]
+                    "dlc": ["none"]
                 }
             }
         }

@@ -32,6 +32,8 @@ def read_json_return(file_name, data):
 
 def update_json(data, file_name):
 
+    print(data)
+
     try:
 
         with open(f'{os.getcwd()}/json/{file_name}.json', 'r') as file:
@@ -39,7 +41,7 @@ def update_json(data, file_name):
 
         y.update(data)
 
-        save_to_json(y, file_name)
+        save_json(y, file_name)
 
     except:
         print("Woops!")

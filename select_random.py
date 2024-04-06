@@ -38,6 +38,7 @@ def select_random_factions(modset):
 
     random_faction_occ = select_random(faction_classes_occ)
     if (setting_allow_double_occ):
+        random_faction_occ = select_random(faction_classes_occ + faction_classes_inv)
         random_faction_inv = select_random(faction_classes_occ)
     else:
         random_faction_inv = select_random(faction_classes_inv)

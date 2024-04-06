@@ -1,10 +1,10 @@
 {
     "modsets": "random_multiple",
-    "desired_climate": ["tropical"],
+    "desired_climate": "all_climates",
     "desired_era": "modern",
-    "desired_key": "vanilla",
-    "key_exclusive": 1,
+    "desired_key": "",
+    "desired_dlc": ["none"],
     "allow_double_occ": 0,
     "choices": 5,
-    "debug_level": 2
+    "debug_level": 0
 }
