@@ -8,13 +8,15 @@ The actual script you need to run is "modset_data.py". Settings are located in "
     "modsets": "random_multiple",
     "desired_climate": ["temperate"],
     "desired_era": "modern",
-    "desired_key": "vanilla",
+    "desired_key": "rhs",
     "desired_dlc": ["none"],
     "allow_double_occ": 0,
-    "choices": 5,
+    "choices": 1,
     "debug_level": 0
 }
 ```
+
+The example above will return 1 choice of RHS based factions that match the temperate climate, are modern, and don't have any DLC.
 
 ## "modsets" 
 Can be an array of modsets (in modsets.json). For example, ["rhs", "3cbf", "3cbbaf"]
@@ -29,15 +31,17 @@ Can be an array of climates or a singular string climate. For example ["arid", "
 If set to "all_climates" it will use all 4 standard climates.
 
 ## "desired_era"
-Has to be a string. Currently "modern" is the only era.
+Has to be a string. Current eras are: ["modern", "scifi", "lowtech", "coldwar"]
 
 ## "desired_key"
-Has to be a string. Currently the only keys are "vanilla" and "rhs"
+Has to be a string. Current keys are: ["vanilla", "rhs"]
 
 ## "desired_dlc"
-Has to be an array. If "none" is in the array, it will include every faction that requires no dlc (RHS and Vanilla, for example). 
+Has to be an array. If "none" is in the array, it will include every faction that requires no dlc (RHS and Vanilla, for example).
 
 If "ws" is in the array, it will include every faction that requires ws (Aegis and WS factions for example).
+
+Current dlcs are: ["vanilla", "ws", "gm", "vn", "none"]
 
 ## "allow_double_occ"
 Has to be 0 or 1. If set to 1, the invader and occupier pools are merged.

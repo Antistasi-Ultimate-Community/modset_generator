@@ -1,10 +1,10 @@
 {
     "modsets": "random_multiple",
-    "desired_climate": "all_climates",
+    "desired_climate": ["temperate"],
     "desired_era": "modern",
-    "desired_key": "",
+    "desired_key": "rhs",
     "desired_dlc": ["none"],
     "allow_double_occ": 0,
-    "choices": 5,
+    "choices": 1,
     "debug_level": 0
 }

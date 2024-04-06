@@ -1,5 +1,35 @@
 {
-    "modsets": ["rhs", "vanilla", "3cbbaf", "3cbf", "tfc", "racs", "aegis", "amf", "braf", "bwa3rhs", "bwa3cup", "csa38"],
+    "modsets": 
+    [
+        "3cbbaf", 
+        "3cbf", 
+        "aegis", 
+        "amf", 
+        "braf", 
+        "bwa3rhs", 
+        "bwa3cup", 
+        "csa38", 
+        "cup", 
+        "cw", 
+        "ffaa", 
+        "gm", 
+        "ifa", 
+        "misc",
+        "nfts",
+        "optre",
+        "pedagne",
+        "pla",
+        "racs", 
+        "rhs", 
+        "spe_ifa",
+        "stalker",
+        "swe",
+        "tfc",
+        "uns",
+        "vanilla",
+        "vn",
+        "ws"
+    ],
     "3cbbaf": 
     {
         "title": "3CBBAF",
@@ -405,10 +435,7 @@
         "factionsCiv": 
         [
             "Vanilla_Civ_Empty",
-            "Vanilla_Civ_Zombie",
-            "IFA_CIV_Zombie_Soldiers",
-            "IFA_CIV_Zombie",
-            "OPTRE_Civ_Flood"
+            "Vanilla_Civ_Zombie"
         ]
     },
     "nfts": 
