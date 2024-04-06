@@ -18,6 +18,14 @@ The actual script you need to run is "modset_data.py". Settings are located in "
 
 The example above will return 1 choice of RHS based factions that match the temperate climate, are modern, and don't have any DLC.
 
+```
+Choice 1
+Your Occupier is the TFC Canadian Army (Temperate).
+you are being invaded by the RHS SAF.
+You'll be playing as the 3CB CCM with your rivals being the 3CB CHDKZ.
+Local civilians are RHS Eastern Europeans.
+```
+
 ## "modsets" 
 Can be an array of modsets (in modsets.json). For example, ["rhs", "3cbf", "3cbbaf"]
 
