@@ -60,3 +60,20 @@ The amount of choices you want. Has to be an int. Please don't set this to 0 or 
 
 ## "debug_level"
 The amount of debug messages you'll get. You usually don't need to change this, but anything higher than 2 will give you a huge amount of information.
+
+## "force_faction_x"
+Has to be an array in format ["modset", "faction_type", "faction"]. This ignores all the other "desired" settings.
+
+For example, if you want to force RHS US Army (Arid) as occupant it would be: "force_faction_occ": ["rhs", "factionsOcc", "RHS_US_Army_Arid"]
+
+If set to [] it will not force any faction. This is the same for all of the below respectively.
+
+# "force_faction_occ"
+
+# "force_faction_inv"
+
+# "force_faction_reb"
+
+# "force_faction_riv"
+
+# "force_faction_civ"

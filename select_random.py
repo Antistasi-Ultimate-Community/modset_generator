@@ -4,10 +4,46 @@ import modset_factions
 from modset_json import read_json_return
 from logging import log_message
 
+from factions_data import grab_faction_object
+
+setting_allow_double_occ = read_json_return("settings", "allow_double_occ")
+
+setting_force_faction_occ = read_json_return("settings", "force_faction_occ")
+setting_force_faction_inv = read_json_return("settings", "force_faction_inv")
+setting_force_faction_reb = read_json_return("settings", "force_faction_reb")
+setting_force_faction_riv = read_json_return("settings", "force_faction_riv")
+setting_force_faction_civ = read_json_return("settings", "force_faction_civ")
+
 def select_random(array):
     data = array[random.randrange(0, len(array))]
 
     return data
+
+def check_forced_factions(faction):
+    faction_type = faction[-1]
+
+    name = ""
+    faction_prefix = ("factions" + faction_type) # "factions" + "Occ"/"Inv"/etc
+
+    if (setting_force_faction_occ != [] and faction_type == "Occ"):
+        name = grab_faction_object(setting_force_faction_occ[0], setting_force_faction_occ[1], setting_force_faction_occ[2], "title")
+
+    if (setting_force_faction_inv != [] and faction_type == "Inv"):
+        name = grab_faction_object(setting_force_faction_inv[0], setting_force_faction_inv[1], setting_force_faction_inv[2], "title")
+    
+    if (setting_force_faction_reb != [] and faction_type == "Reb"):
+        name = grab_faction_object(setting_force_faction_reb[0], setting_force_faction_reb[1], setting_force_faction_reb[2], "title")
+    
+    if (setting_force_faction_riv != [] and faction_type == "Riv"):
+        name = grab_faction_object(setting_force_faction_riv[0], setting_force_faction_riv[1], setting_force_faction_riv[2], "title")
+    
+    if (setting_force_faction_civ != [] and faction_type == "Civ"):
+        name = grab_faction_object(setting_force_faction_civ[0], setting_force_faction_civ[1], setting_force_faction_civ[2], "title")
+
+    if (name != ""):
+        return [name]
+    else:
+        return faction
 
 def select_random_factions(modset):
 
@@ -34,8 +70,6 @@ def select_random_factions(modset):
 
     factions = [faction_classes_occ, faction_classes_inv, faction_classes_reb, faction_classes_riv, faction_classes_civ]
 
-    setting_allow_double_occ = read_json_return("settings", "allow_double_occ")
-
     random_faction_occ = select_random(faction_classes_occ)
     if (setting_allow_double_occ):
         random_faction_occ = select_random(faction_classes_occ + faction_classes_inv)
@@ -45,6 +79,12 @@ def select_random_factions(modset):
     random_faction_reb = select_random(faction_classes_reb)
     random_faction_riv = select_random(faction_classes_riv)
     random_faction_civ = select_random(faction_classes_civ)
+
+    random_faction_occ = check_forced_factions(random_faction_occ)
+    random_faction_inv = check_forced_factions(random_faction_inv)
+    random_faction_reb = check_forced_factions(random_faction_reb)
+    random_faction_riv = check_forced_factions(random_faction_riv)
+    random_faction_civ = check_forced_factions(random_faction_civ)
 
     log_message(3, [random_faction_occ, random_faction_inv, random_faction_reb, random_faction_riv, random_faction_civ])
 
