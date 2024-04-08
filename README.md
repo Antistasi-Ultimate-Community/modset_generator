@@ -73,12 +73,12 @@ For example, if you want to force RHS US Army (Arid) as occupant it would be: "f
 
 If set to [] it will not force any faction. This is the same for all of the below respectively.
 
-# "force_faction_occ"
+### "force_faction_occ"
 
-# "force_faction_inv"
+### "force_faction_inv"
 
-# "force_faction_reb"
+### "force_faction_reb"
 
-# "force_faction_riv"
+### "force_faction_riv"
 
-# "force_faction_civ"
+### "force_faction_civ"
