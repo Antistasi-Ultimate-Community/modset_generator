@@ -12,7 +12,12 @@ The actual script you need to run is "modset_data.py". Settings are located in "
     "desired_dlc": ["none"],
     "allow_double_occ": 0,
     "choices": 1,
-    "debug_level": 0
+    "debug_level": 0,
+    "force_faction_occ": [],
+    "force_faction_inv": [],
+    "force_faction_reb": [],
+    "force_faction_riv": [],
+    "force_faction_civ": []
 }
 ```
 
