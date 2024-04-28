@@ -14,7 +14,6 @@
         "ffaa", 
         "gm", 
         "ifa", 
-        "misc",
         "nfts",
         "optre",
         "pedagne",
@@ -22,7 +21,6 @@
         "racs", 
         "rhs", 
         "spe_ifa",
-        "stalker",
         "swe",
         "tfc",
         "uns",
@@ -33,6 +31,8 @@
     "3cbbaf": 
     {
         "title": "3CBBAF",
+        "type": "rhs",
+        "era": "modern",
         "factionsOcc": 
         [
             "3CB_AI_BAF_Arctic", 
@@ -60,6 +60,8 @@
     "3cbf": 
     {
         "title": "3CBF",
+        "type": "rhs",
+        "era": "modern",
         "factionsOcc": 
         [
             "3CBF_LDF", 
@@ -98,6 +100,8 @@
     "aegis": 
     {
         "title": "Aegis",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "Aegis_AUKUS_Arid",
@@ -134,6 +138,8 @@
     "amf": 
     {
         "title": "AMF",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "AMF_Army",
@@ -159,6 +165,8 @@
     "braf": 
     {
         "title": "BRAF",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "BRAF_Tropical"
@@ -183,6 +191,8 @@
     "bwa3rhs": 
     {
         "title": "BWA RHS",
+        "type": "rhs",
+        "era": "modern",
         "factionsOcc": 
         [
             "BWA3_BW_Arid",
@@ -208,6 +218,8 @@
     "bwa3cup": 
     {
         "title": "BWA CUP",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "BWA3_BW_Arid",
@@ -233,6 +245,8 @@
     "csa38": 
     {
         "title": "CSA38",
+        "type": "vanilla",
+        "era": "lowtech",
         "factionsOcc": 
         [
             "CSA_WEH_Temperate",
@@ -261,6 +275,8 @@
     "cup": 
     {
         "title": "CUP",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "CUP_ACR_Arid",
@@ -307,6 +323,8 @@
     "cw": 
     {
         "title": "Clone Wars",
+        "type": "vanilla",
+        "era": "scifi",
         "factionsOcc": 
         [
             "CW_REP"
@@ -331,6 +349,8 @@
     "ffaa": 
     {
         "title": "FFAA",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "FFAA_SPA_Temperate",
@@ -356,6 +376,8 @@
     "gm": 
     {
         "title": "GM",
+        "type": "vanilla",
+        "era": "coldwar",
         "factionsOcc": 
         [
             "GM_BW",
@@ -382,6 +404,8 @@
     "ifa": 
     {
         "title": "IFA",
+        "type": "vanilla",
+        "era": "lowtech",
         "factionsOcc": 
         [
             "IFA_WEH_Temperate",
@@ -416,6 +440,8 @@
     "misc": 
     {
         "title": "Misc",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "None"
@@ -441,6 +467,8 @@
     "nfts": 
     {
         "title": "NFTS",
+        "type": "vanilla",
+        "era": "lowtech",
         "factionsOcc": 
         [
             "None"
@@ -469,6 +497,8 @@
     "optre": 
     {
         "title": "OPTRE",
+        "type": "vanilla",
+        "era": "scifi",
         "factionsOcc": 
         [
             "OPTRE_UNSC",
@@ -496,6 +526,8 @@
     "pedagne": 
     {
         "title": "Pedagne",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "PED_ITA_Temperate",
@@ -521,6 +553,8 @@
     "pla": 
     {
         "title": "PLA",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "None"
@@ -547,6 +581,8 @@
     "racs": 
     {
         "title": "RACS",
+        "type": "rhs",
+        "era": "modern",
         "factionsOcc": 
         [
             "RACS_Army"
@@ -571,6 +607,8 @@
     "rhs":
     {
         "title": "RHS",
+        "type": "rhs",
+        "era": "modern",
         "factionsOcc": 
         [
             "RHS_USMC_Arid", 
@@ -600,6 +638,8 @@
     "spe_ifa": 
     {
         "title": "SPE + IFA",
+        "type": "vanilla",
+        "era": "lowtech",
         "factionsOcc": 
         [
             "SPE_IFA_WEH"
@@ -624,6 +664,8 @@
     "stalker": 
     {
         "title": "STALKER",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "STALKER_Military",
@@ -652,6 +694,8 @@
     "swe": 
     {
         "title": "SFP",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "SFP_SWE_Temperate",
@@ -675,9 +719,37 @@
             "None"
         ]
     },
+    "tmt": 
+    {
+        "title": "TMT",
+        "type": "vanilla",
+        "era": "modern",
+        "factionsOcc": 
+        [
+            "TMT_Army"
+        ],
+        "factionsInv": 
+        [
+            "None"
+        ],
+        "factionsReb": 
+        [
+            "None"
+        ],
+        "factionsRiv": 
+        [
+            "None"
+        ],
+        "factionsCiv": 
+        [
+            "None"
+        ]
+    },
     "tfc": 
     {
         "title": "TFC",
+        "type": "rhs",
+        "era": "modern",
         "factionsOcc": 
         [
             "TFC_Army", 
@@ -700,33 +772,11 @@
             "None"
         ]
     },
-    "tmt": 
-    {
-        "title": "TMT",
-        "factionsOcc": 
-        [
-            "TMT_Army"
-        ],
-        "factionsInv": 
-        [
-            "None"
-        ],
-        "factionsReb": 
-        [
-            "None"
-        ],
-        "factionsRiv": 
-        [
-            "None"
-        ],
-        "factionsCiv": 
-        [
-            "None"
-        ]
-    },
     "uns": 
     {
         "title": "Unsung",
+        "type": "vanilla",
+        "era": "coldwar",
         "factionsOcc": 
         [
             "UNS_PAVN"
@@ -751,6 +801,8 @@
     "vanilla": 
     {
         "title": "Vanilla",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "Vanilla_NATO_Arid", 
@@ -783,6 +835,8 @@
     "vn": 
     {
         "title": "SOGPF",
+        "type": "vanilla",
+        "era": "coldwar",
         "factionsOcc": 
         [
             "VN_MACV"
@@ -809,6 +863,8 @@
     "ws": 
     {
         "title": "Western Sahara",
+        "type": "vanilla",
+        "era": "modern",
         "factionsOcc": 
         [
             "None"

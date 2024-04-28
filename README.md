@@ -1,6 +1,6 @@
 # antistasi_modset_generator
  
-The actual file you need to run is "modset_data.py". Settings are located in "json\settings.json"
+The actual file you need to run is "init.py". Settings are located in "json\settings.json"
 
 # settings.json
 ```
@@ -32,46 +32,48 @@ Local civilians are RHS Eastern Europeans.
 ```
 
 ## "modsets" 
-Can be an array of modsets (in modsets.json). For example, ["rhs", "3cbf", "3cbbaf"]
+Can be an array of modsets (in modsets.json). For example, `["rhs", "3cbf", "3cbbaf"]`
 
 ~~If set to "random" it will choose 1 modset out of all the modsets.~~
 This has been deprecated in favour of below.
 
-If set to "random_multiple" it will choose random factions from all available modsets.
+If set to `"random_multiple"` it will choose random factions from all available modsets.
 
 ## "desired_climate"
-Can be an array of climates or a singular string climate. For example ["arid", "temperate"] will return any factions matching either climate. "arid" will just return factions matching arid.
+Can be an array of climates or a singular string climate. For example `["arid", "temperate"]` will return any factions matching either climate. `"arid"` will just return factions matching arid.
 
-If set to "all_climates" it will use all 4 standard climates.
+If set to `"all_climates"` it will use all 4 standard climates.
 
 ## "desired_era"
-Has to be a string. Current eras are: ["modern", "scifi", "lowtech", "coldwar"]
+Has to be a string. Current eras are: `["modern", "scifi", "lowtech", "coldwar"]`
 
 ## "desired_key"
-Has to be a string. Current keys are: ["vanilla", "rhs"]
+Has to be a string. Current keys are: `["vanilla", "rhs"]`
 
 ## "desired_dlc"
-Has to be an array. If "none" is in the array, it will include every faction that requires no dlc (RHS and Vanilla, for example).
+Has to be an array. If `"none"` is in the array, it will include every faction that requires no dlc (RHS and CUP, for example).
 
-If "ws" is in the array, it will include every faction that requires ws (Aegis and WS factions for example).
+If `"ws"` is in the array, it will include every faction that requires Western Sahara (Aegis and WS factions for example).
 
-Current dlcs are: ["vanilla", "ws", "gm", "vn", "none"]
+Current dlcs are: `["vanilla", "ws", "gm", "vn", "none"]`
 
 ## "allow_double_occ"
 Has to be 0 or 1. If set to 1, the invader and occupier pools are merged.
 
 ## "choices"
-The amount of choices you want. Has to be an int. Please don't set this to 0 or lower, I didn't bother adding an exception for it.
+The amount of choices you want. Has to be an int.
 
 ## "debug_level"
-The amount of debug messages you'll get. You usually don't need to change this, but anything higher than 2 will give you a huge amount of information.
+The amount of debug messages you'll get. You usually don't need to change this, but anything higher than 0 will give you debug information.
 
 ## "force_faction_x"
-Has to be an array in format ["modset", "faction_type", "faction"]. This ignores all the other "desired" settings.
+Has to be an array in format `["faction_type", "faction"]`. This ignores all the other "desired" settings.
 
-For example, if you want to force RHS US Army (Arid) as occupant it would be: "force_faction_occ": ["rhs", "factionsOcc", "RHS_US_Army_Arid"]
+For example, if you want to force RHS AFRF as occupant it would be: 
 
-If set to [] it will not force any faction. This is the same for all of the below respectively.
+`"force_faction_occ": ["factionsInv", "RHS_AFRF"]`
+
+If set to `[]` it will not force any faction. This is the same for all of the below respectively.
 
 ### "force_faction_occ"
 

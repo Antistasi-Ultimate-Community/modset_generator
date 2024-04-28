@@ -6,7 +6,7 @@
     "desired_dlc": ["none"],
     "allow_double_occ": 0,
     "choices": 1,
-    "debug_level": 0,
+    "debug_level": 1,
     "force_faction_occ": [],
     "force_faction_inv": [],
     "force_faction_reb": [],
